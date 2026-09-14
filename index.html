@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Immohammedia | Vente & location à Mohammedia</title>
+<meta name="description" content="Immohammedia – Vente et location d'appartements et villas à Mohammedia.">
+<link rel="stylesheet" href="styles.css">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+<header class="header"><div class="container header-inner">
+<a href="#" class="logo"><span class="logo-mark">IMMO</span><span class="logo-text">HAMMEDIA</span></a>
+<nav class="nav" id="nav"><a href="#services">Services</a><a href="#booking">Visite</a><a href="#estimation">Estimation</a><a href="#contact">Contact</a></nav>
+<a href="https://wa.me/212669587332" class="btn btn-whatsapp header-cta" target="_blank">WhatsApp</a>
+<button class="menu-toggle" id="menuToggle" type="button">☰</button>
+</div></header>
+<section class="hero"><div class="hero-bg" style="background-image:url('https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=2000&q=80')"></div><div class="hero-overlay"></div>
+<div class="container hero-content">
+<p class="hero-eyebrow">Mohammedia</p>
+<h1>Vente & location<br>à Mohammedia.</h1>
+<p class="hero-sub">Appartements, villas et biens sélectionnés sur Mohammedia.</p>
+<div class="hero-ctas"><a href="#estimation" class="btn btn-primary">Estimation</a><a href="#booking" class="btn btn-secondary">Réserver une visite</a></div>
+</div></section>
+<section class="section" id="services"><div class="container">
+<div class="section-header"><h2>Services</h2></div>
+<div class="services-grid">
+<article class="service-card"><div class="service-body"><h3>Vente</h3><p>Appartements et villas à vendre.</p></div></article>
+<article class="service-card"><div class="service-body"><h3>Location</h3><p>Location vide ou meublée.</p></div></article>
+<article class="service-card"><div class="service-body"><h3>Conseil</h3><p>Estimation et accompagnement.</p></div></article>
+</div></div></section>
+<section class="section booking-section" id="booking"><div class="container">
+<div class="section-header"><h2>Réserver une visite</h2></div>
+<form class="booking-form" id="bookingForm">
+<div class="form-row"><input name="name" placeholder="Nom" required><input name="phone" type="tel" placeholder="Téléphone" required></div>
+<div class="form-row"><select name="interest" required><option value="">Objectif</option><option>Acheter</option><option>Louer</option><option>Vendre</option></select><input name="date" type="date" required></div>
+<button type="submit" class="btn btn-primary btn-full">Confirmer</button>
+</form></div></section>
+<section class="section cta-section" id="estimation"><div class="container"><div class="cta-box">
+<h2>Estimation gratuite</h2>
+<form class="estimate-form" id="estimateForm">
+<div class="form-row"><input name="name" placeholder="Nom" required><input name="phone" type="tel" placeholder="Téléphone" required></div>
+<button type="submit" class="btn btn-primary btn-full">Demander estimation</button>
+</form>
+<p class="form-note">+212 669 58 73 32</p>
+</div></div></section>
+<section class="section section-alt" id="contact"><div class="container">
+<div class="section-header"><h2>Contact Immohammedia</h2></div>
+<div class="contact-grid">
+<div class="contact-card"><h3>WhatsApp</h3><p><a href="tel:+212669587332">+212 669 58 73 32</a></p><a href="https://wa.me/212669587332" class="btn btn-whatsapp" target="_blank">WhatsApp</a></div>
+<div class="contact-card"><h3>Adresse</h3><p>Lot. Wafa / Rue 8<br>Mohammedia</p></div>
+</div></div></section>
+<footer class="footer"><div class="container footer-inner"><p class="footer-copy">© 2026 Immohammedia</p></div></footer>
+<div class="float-stack"><button type="button" class="chatbot-toggle" id="chatToggle">💬</button><a href="https://wa.me/212669587332" class="float-whatsapp" target="_blank">WA</a></div>
+<div class="chatbot-panel" id="chatPanel">
+<div class="chatbot-header"><div><strong>Assistant Immohammedia</strong></div><button type="button" class="chatbot-close" id="chatClose">✕</button></div>
+<div class="chatbot-messages" id="chatMessages"></div>
+<div class="chatbot-quick" id="chatQuick"></div>
+<div class="chatbot-input-row"><input id="chatInput" placeholder="Message..."><button type="button" id="chatSend">Envoyer</button></div>
+</div>
+<script src="script.js"></script>
+</body></html>
